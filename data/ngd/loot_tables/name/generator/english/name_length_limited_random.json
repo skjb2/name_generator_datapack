@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"slot": "mainhand",
+									"name": "#nameLLimitedRandom",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": {
+											"type": "minecraft:score",
+											"target": {
+												"type": "minecraft:fixed",
+												"name": "$nameLengthMMin"
+											},
+											"score": "ngdConfig"
+										},
+										"max": {
+											"type": "minecraft:score",
+											"target": {
+												"type": "minecraft:fixed",
+												"name": "$nameLengthMMax"
+											},
+											"score": "ngdConfig"
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
