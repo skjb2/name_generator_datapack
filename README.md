@@ -14,7 +14,7 @@ a minecraft datapack that can generate random names
 /function ngd:tp
 
 **A datapack that can generate random names, Name Generator Datapack, you can also call it NGD
-blocks from 29999997 0 -1477 to 29999996 2 -1479 will be placed**
+,blocks from 29999997 0 -1477 to 29999996 2 -1479 will be placed**
 
 **Commands that generate names**
 
