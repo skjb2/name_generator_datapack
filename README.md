@@ -13,6 +13,15 @@ a minecraft datapack that can generate random names
 
 /function ngd:tp
 
+参考
+
+大部分指令：mc中文wiki https://zh.minecraft.wiki/
+
+字符串拼接：天起源的T算法库 https://www.mcmod.cn/class/11569.html
+
+随机数处理：ruhuasiyu的数据包教程 https://zhangshenxing.github.io/VanillaModTutorial
+
+
 **A datapack that can generate random names, Name Generator Datapack, you can also call it NGD
 ,blocks from 29999997 0 -1477 to 29999996 2 -1479 will be placed**
 
@@ -24,3 +33,11 @@ a minecraft datapack that can generate random names
 **Commands that tp the player to the place where generate the names**
 
 /function ngd:tp
+
+Thanks to
+
+Most commands：mc中文wiki https://zh.minecraft.wiki/
+
+string merge：天起源的T算法库 https://www.mcmod.cn/class/11569.html
+
+random number：ruhuasiyu的数据包教程 https://zhangshenxing.github.io/VanillaModTutorial
